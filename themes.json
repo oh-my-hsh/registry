@@ -1,0 +1,80 @@
+{
+    "$schema": "https://oh-my-hsh.navii.online/schemas/themes-v1.json",
+    "version": 1,
+    "themes": [
+        {
+            "id": "tokyo-night",
+            "name": "Tokyo Night",
+            "description": "A dark theme celebrating the lights of Downtown Tokyo at night.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/tokyo-night",
+            "tags": [
+                "dark",
+                "nerd-fonts",
+                "popular"
+            ],
+            "requires_nerd_fonts": true,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "dracula",
+            "name": "Dracula",
+            "description": "The famous dark theme for all your tools, now available for hsh.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/dracula",
+            "tags": [
+                "dark",
+                "classic"
+            ],
+            "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "nord",
+            "name": "Nord",
+            "description": "An arctic, north-bluish clean and elegant theme.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/nord",
+            "tags": [
+                "dark",
+                "minimal",
+                "cool"
+            ],
+            "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "catppuccin-mocha",
+            "name": "Catppuccin Mocha",
+            "description": "A soothing pastel theme for the high-spirited.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/catppuccin-mocha",
+            "tags": [
+                "dark",
+                "pastel",
+                "nerd-fonts"
+            ],
+            "requires_nerd_fonts": true,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "gruvbox",
+            "name": "Gruvbox",
+            "description": "Retro groove color scheme with warm, earthy tones.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/gruvbox",
+            "tags": [
+                "dark",
+                "retro",
+                "warm"
+            ],
+            "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        }
+    ]
+}
