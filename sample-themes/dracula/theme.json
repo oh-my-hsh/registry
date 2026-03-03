@@ -1,0 +1,33 @@
+{
+    "name": "Dracula",
+    "version": "1.0.0",
+    "description": "The famous dark theme for all your tools, now available for hsh.",
+    "author": "takakix2",
+    "prompts": {
+        "left": "{color:prompt_primary}{user}@{host}{color:muted}:{color:prompt_secondary}{cwd}{reset} ❯ ",
+        "right": "{clock}",
+        "continuation": "> ",
+        "title": "hsh: {cwd}"
+    },
+    "colors": {
+        "background": "#282a36",
+        "foreground": "#f8f8f2",
+        "prompt_primary": "#bd93f9",
+        "prompt_secondary": "#50fa7b",
+        "success": "#50fa7b",
+        "error": "#ff5555",
+        "info": "#8be9fd",
+        "muted": "#6272a4"
+    },
+    "syntax": {
+        "keyword": "#ff79c6",
+        "string": "#f1fa8c",
+        "method": "#bd93f9",
+        "comment": "#6272a4"
+    },
+    "widgets": [
+        "clock"
+    ],
+    "cursor_style": "line",
+    "requires_nerd_fonts": false
+}

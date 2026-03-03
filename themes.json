@@ -3,18 +3,18 @@
     "version": 1,
     "themes": [
         {
-            "id": "tokyo-night",
-            "name": "Tokyo Night",
-            "description": "A dark theme celebrating the lights of Downtown Tokyo at night.",
+            "id": "pure",
+            "name": "Pure",
+            "description": "A clean, minimal prompt inspired by Zsh Pure. Shows directory and git branch.",
             "author": "takakix2",
             "author_url": "https://github.com/takakix2",
-            "repo": "oh-my-hsh/tokyo-night",
+            "repo": "oh-my-hsh/pure",
             "tags": [
-                "dark",
-                "nerd-fonts",
-                "popular"
+                "minimal",
+                "clean",
+                "default"
             ],
-            "requires_nerd_fonts": true,
+            "requires_nerd_fonts": false,
             "min_hsh_version": "0.1.0"
         },
         {
@@ -32,18 +32,32 @@
             "min_hsh_version": "0.1.0"
         },
         {
-            "id": "nord",
-            "name": "Nord",
-            "description": "An arctic, north-bluish clean and elegant theme.",
+            "id": "dracula-minimal",
+            "name": "Dracula Minimal",
+            "description": "A stripped-down Dracula with just colors and a clean prompt.",
             "author": "takakix2",
             "author_url": "https://github.com/takakix2",
-            "repo": "oh-my-hsh/nord",
+            "repo": "oh-my-hsh/dracula-minimal",
             "tags": [
                 "dark",
-                "minimal",
-                "cool"
+                "minimal"
             ],
             "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "tokyo-night",
+            "name": "Tokyo Night",
+            "description": "A dark theme celebrating the lights of Downtown Tokyo at night.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/tokyo-night",
+            "tags": [
+                "dark",
+                "nerd-fonts",
+                "popular"
+            ],
+            "requires_nerd_fonts": true,
             "min_hsh_version": "0.1.0"
         },
         {
@@ -74,6 +88,37 @@
                 "warm"
             ],
             "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "nord",
+            "name": "Nord",
+            "description": "An arctic, north-bluish clean and elegant theme.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/nord",
+            "tags": [
+                "dark",
+                "minimal",
+                "cool"
+            ],
+            "requires_nerd_fonts": false,
+            "min_hsh_version": "0.1.0"
+        },
+        {
+            "id": "powerlevel",
+            "name": "Powerlevel",
+            "description": "A feature-rich Powerline prompt with git status, user, host, and time.",
+            "author": "takakix2",
+            "author_url": "https://github.com/takakix2",
+            "repo": "oh-my-hsh/powerlevel",
+            "tags": [
+                "dark",
+                "powerline",
+                "nerd-fonts",
+                "feature-rich"
+            ],
+            "requires_nerd_fonts": true,
             "min_hsh_version": "0.1.0"
         }
     ]

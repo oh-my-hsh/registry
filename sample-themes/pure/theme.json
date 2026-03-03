@@ -1,0 +1,33 @@
+{
+    "name": "Pure",
+    "version": "1.1.0",
+    "description": "Minimalist 2-line prompt inspired by the popular Zsh Pure theme.",
+    "author": "takakix2",
+    "prompts": {
+        "left": "{color:prompt_primary}{cwd}{reset} {color:muted}{git-branch}{reset}\n{color:info}❯{reset} ",
+        "right": "",
+        "continuation": "> ",
+        "title": "hsh: {cwd}"
+    },
+    "colors": {
+        "background": "transparent",
+        "foreground": "#ffffff",
+        "prompt_primary": "#87afff",
+        "prompt_secondary": "transparent",
+        "success": "#00ff00",
+        "error": "#ff0000",
+        "info": "#af87ff",
+        "muted": "#666666"
+    },
+    "syntax": {
+        "keyword": "#ff6666",
+        "string": "#66ff66",
+        "method": "#87afff",
+        "comment": "#666666"
+    },
+    "widgets": [
+        "git-branch"
+    ],
+    "cursor_style": "line",
+    "requires_nerd_fonts": false
+}

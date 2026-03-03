@@ -1,0 +1,34 @@
+{
+    "name": "Tokyo Night",
+    "version": "1.0.0",
+    "description": "A dark theme celebrating the lights of Downtown Tokyo at night.",
+    "author": "takakix2",
+    "prompts": {
+        "left": "{color:prompt_primary}{user}@{host}{color:muted}:{color:prompt_secondary}{cwd}{reset} ❯ ",
+        "right": "{clock}",
+        "continuation": "> ",
+        "title": "hsh: {cwd}"
+    },
+    "colors": {
+        "background": "transparent",
+        "foreground": "#c0caf5",
+        "prompt_primary": "#7aa2f7",
+        "prompt_secondary": "#e0af68",
+        "success": "#9ece6a",
+        "error": "#f7768e",
+        "info": "#7dcfff",
+        "muted": "#565f89"
+    },
+    "syntax": {
+        "keyword": "#ff7b72",
+        "string": "#a5d6ff",
+        "method": "#d2a8ff",
+        "comment": "#8b949e"
+    },
+    "widgets": [
+        "clock",
+        "git-branch"
+    ],
+    "cursor_style": "line",
+    "requires_nerd_fonts": false
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Catppuccin Mocha",
+    "version": "1.0.0",
+    "description": "A soothing pastel theme for the high-spirited.",
+    "author": "takakix2",
+    "prompts": {
+        "left": "{color:prompt_primary}{user}@{host}{color:muted}:{color:prompt_secondary}{cwd}{reset} ❯ ",
+        "right": "{git-branch} {clock}",
+        "continuation": "> ",
+        "title": "hsh: {cwd}"
+    },
+    "colors": {
+        "background": "#1e1e2e",
+        "foreground": "#cdd6f4",
+        "prompt_primary": "#cba6f7",
+        "prompt_secondary": "#f9e2af",
+        "success": "#a6e3a1",
+        "error": "#f38ba8",
+        "info": "#89b4fa",
+        "muted": "#585b70"
+    },
+    "syntax": {
+        "keyword": "#f38ba8",
+        "string": "#a6e3a1",
+        "method": "#cba6f7",
+        "comment": "#585b70"
+    },
+    "widgets": [
+        "clock",
+        "git-branch"
+    ],
+    "cursor_style": "line",
+    "requires_nerd_fonts": false
+}

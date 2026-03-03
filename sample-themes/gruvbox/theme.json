@@ -1,0 +1,33 @@
+{
+    "name": "Gruvbox",
+    "version": "1.0.0",
+    "description": "Retro groove color scheme with warm, earthy tones.",
+    "author": "takakix2",
+    "prompts": {
+        "left": "{color:prompt_primary}{user}@{host}{color:muted}:{color:prompt_secondary}{cwd}{reset} ❯ ",
+        "right": "{clock}",
+        "continuation": "> ",
+        "title": "hsh: {cwd}"
+    },
+    "colors": {
+        "background": "#282828",
+        "foreground": "#ebdbb2",
+        "prompt_primary": "#fabd2f",
+        "prompt_secondary": "#b8bb26",
+        "success": "#b8bb26",
+        "error": "#fb4934",
+        "info": "#83a598",
+        "muted": "#665c54"
+    },
+    "syntax": {
+        "keyword": "#fb4934",
+        "string": "#b8bb26",
+        "method": "#fabd2f",
+        "comment": "#665c54"
+    },
+    "widgets": [
+        "clock"
+    ],
+    "cursor_style": "block",
+    "requires_nerd_fonts": false
+}
